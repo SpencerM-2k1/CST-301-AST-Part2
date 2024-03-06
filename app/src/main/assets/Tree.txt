@@ -1,0 +1,456 @@
+compilationUnit
+└── ordinaryCompilationUnit
+    ├── packageDeclaration
+    |   ├── interfaceMethodDeclaration'package'
+    |   ├── qualifiedName
+    |   |   └── superSuffix'example'
+    |   └── annotationTypeElementRest';'
+    ├── importDeclaration
+    |   ├── constructorDeclaration'import'
+    |   ├── qualifiedName
+    |   |   ├── superSuffix'java'
+    |   |   ├── annotationMethodRest'.'
+    |   |   ├── superSuffix'util'
+    |   |   ├── annotationMethodRest'.'
+    |   |   └── superSuffix'ArrayList'
+    |   └── annotationTypeElementRest';'
+    ├── importDeclaration
+    |   ├── constructorDeclaration'import'
+    |   ├── qualifiedName
+    |   |   ├── superSuffix'java'
+    |   |   ├── annotationMethodRest'.'
+    |   |   ├── superSuffix'util'
+    |   |   ├── annotationMethodRest'.'
+    |   |   └── superSuffix'List'
+    |   └── annotationTypeElementRest';'
+    ├── typeDeclaration
+    |   ├── classOrInterfaceModifier
+    |   |   └── variableDeclarator'public'
+    |   └── classDeclaration
+    |       ├── classDeclaration'class'
+    |       ├── superSuffix'TestClass'
+    |       └── classBody
+    |           ├── elementValueArrayInitializer'{'
+    |           └── annotationTypeDeclaration'}'
+    ├── typeDeclaration
+    |   └── annotationTypeElementRest';'
+    ├── typeDeclaration
+    |   ├── classOrInterfaceModifier
+    |   |   └── variableDeclarator'public'
+    |   └── classDeclaration
+    |       ├── classDeclaration'class'
+    |       ├── superSuffix'Example'
+    |       └── classBody
+    |           ├── elementValueArrayInitializer'{'
+    |           ├── classBodyDeclaration
+    |           |   └── memberDeclaration
+    |           |       └── fieldDeclaration
+    |           |           ├── typeSpec
+    |           |           |   └── classOrInterfaceType
+    |           |           |       └── superSuffix'TestClass'
+    |           |           ├── variableDeclarators
+    |           |           |   └── variableDeclarator
+    |           |           |       ├── variableDeclaratorId
+    |           |           |       |   └── superSuffix'class1'
+    |           |           |       ├── annotationConstantRest'='
+    |           |           |       └── variableInitializer
+    |           |           |           └── expression
+    |           |           |               ├── constantDeclarator'new'
+    |           |           |               └── creator
+    |           |           |                   ├── createdName
+    |           |           |                   |   └── superSuffix'TestClass'
+    |           |           |                   └── classCreatorRest
+    |           |           |                       └── arguments
+    |           |           |                           ├── elementValuePair'('
+    |           |           |                           └── elementValue')'
+    |           |           └── annotationTypeElementRest';'
+    |           ├── classBodyDeclaration
+    |           |   ├── modifier
+    |           |   |   └── classOrInterfaceModifier
+    |           |   |       └── genericInterfaceMethodDeclaration'private'
+    |           |   └── memberDeclaration
+    |           |       └── fieldDeclaration
+    |           |           ├── typeSpec
+    |           |           |   └── classOrInterfaceType
+    |           |           |       ├── superSuffix'ArrayList'
+    |           |           |       └── typeArguments
+    |           |           |           ├── block'<'
+    |           |           |           ├── typeArgument
+    |           |           |           |   └── typeSpec
+    |           |           |           |       └── classOrInterfaceType
+    |           |           |           |           └── superSuffix'String'
+    |           |           |           └── defaultValue'>'
+    |           |           ├── variableDeclarators
+    |           |           |   └── variableDeclarator
+    |           |           |       └── variableDeclaratorId
+    |           |           |           └── superSuffix'names'
+    |           |           └── annotationTypeElementRest';'
+    |           ├── classBodyDeclaration
+    |           |   ├── modifier
+    |           |   |   └── classOrInterfaceModifier
+    |           |   |       └── genericInterfaceMethodDeclaration'private'
+    |           |   └── memberDeclaration
+    |           |       └── fieldDeclaration
+    |           |           ├── typeSpec
+    |           |           |   └── classOrInterfaceType
+    |           |           |       ├── superSuffix'ArrayList'
+    |           |           |       └── typeArguments
+    |           |           |           ├── block'<'
+    |           |           |           ├── typeArgument
+    |           |           |           |   └── typeSpec
+    |           |           |           |       └── classOrInterfaceType
+    |           |           |           |           ├── superSuffix'ArrayList'
+    |           |           |           |           └── typeArguments
+    |           |           |           |               ├── block'<'
+    |           |           |           |               ├── typeArgument
+    |           |           |           |               |   └── typeSpec
+    |           |           |           |               |       └── classOrInterfaceType
+    |           |           |           |               |           └── superSuffix'Int'
+    |           |           |           |               └── defaultValue'>'
+    |           |           |           └── defaultValue'>'
+    |           |           ├── variableDeclarators
+    |           |           |   └── variableDeclarator
+    |           |           |       └── variableDeclaratorId
+    |           |           |           └── superSuffix'numberGrid'
+    |           |           └── annotationTypeElementRest';'
+    |           ├── classBodyDeclaration
+    |           |   ├── modifier
+    |           |   |   └── classOrInterfaceModifier
+    |           |   |       └── variableDeclarator'public'
+    |           |   └── memberDeclaration
+    |           |       └── constructorDeclaration
+    |           |           ├── superSuffix'Example'
+    |           |           ├── formalParameters
+    |           |           |   ├── elementValuePair'('
+    |           |           |   └── elementValue')'
+    |           |           └── constructorBody
+    |           |               └── block
+    |           |                   ├── elementValueArrayInitializer'{'
+    |           |                   ├── blockStatement
+    |           |                   |   └── statement
+    |           |                   |       ├── statementExpression
+    |           |                   |       |   └── expression
+    |           |                   |       |       ├── expression
+    |           |                   |       |       |   └── primary
+    |           |                   |       |       |       └── superSuffix'names'
+    |           |                   |       |       ├── annotationConstantRest'='
+    |           |                   |       |       └── expression
+    |           |                   |       |           ├── constantDeclarator'new'
+    |           |                   |       |           └── creator
+    |           |                   |       |               ├── createdName
+    |           |                   |       |               |   ├── superSuffix'ArrayList'
+    |           |                   |       |               |   └── typeArgumentsOrDiamond
+    |           |                   |       |               |       ├── block'<'
+    |           |                   |       |               |       └── defaultValue'>'
+    |           |                   |       |               └── classCreatorRest
+    |           |                   |       |                   └── arguments
+    |           |                   |       |                       ├── elementValuePair'('
+    |           |                   |       |                       └── elementValue')'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   └── annotationTypeDeclaration'}'
+    |           ├── classBodyDeclaration
+    |           |   ├── modifier
+    |           |   |   └── classOrInterfaceModifier
+    |           |   |       └── variableDeclarator'public'
+    |           |   └── memberDeclaration
+    |           |       └── methodDeclaration
+    |           |           ├── formalParameter'void'
+    |           |           ├── superSuffix'addName'
+    |           |           ├── formalParameters
+    |           |           |   ├── elementValuePair'('
+    |           |           |   ├── formalParameterList
+    |           |           |   |   └── formalParameter
+    |           |           |   |       ├── typeSpec
+    |           |           |   |       |   └── classOrInterfaceType
+    |           |           |   |       |       └── superSuffix'String'
+    |           |           |   |       └── variableDeclaratorId
+    |           |           |   |           └── superSuffix'name'
+    |           |           |   └── elementValue')'
+    |           |           └── methodBody
+    |           |               └── block
+    |           |                   ├── elementValueArrayInitializer'{'
+    |           |                   ├── blockStatement
+    |           |                   |   └── statement
+    |           |                   |       ├── statementExpression
+    |           |                   |       |   └── expression
+    |           |                   |       |       ├── expression
+    |           |                   |       |       |   ├── expression
+    |           |                   |       |       |   |   └── primary
+    |           |                   |       |       |   |       └── superSuffix'names'
+    |           |                   |       |       |   ├── annotationMethodRest'.'
+    |           |                   |       |       |   └── superSuffix'add'
+    |           |                   |       |       ├── elementValuePair'('
+    |           |                   |       |       ├── expressionList
+    |           |                   |       |       |   └── expression
+    |           |                   |       |       |       └── primary
+    |           |                   |       |       |           └── superSuffix'name'
+    |           |                   |       |       └── elementValue')'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   └── annotationTypeDeclaration'}'
+    |           ├── classBodyDeclaration
+    |           |   ├── modifier
+    |           |   |   └── classOrInterfaceModifier
+    |           |   |       └── variableDeclarator'public'
+    |           |   └── memberDeclaration
+    |           |       └── methodDeclaration
+    |           |           ├── typeSpec
+    |           |           |   └── classOrInterfaceType
+    |           |           |       ├── superSuffix'List'
+    |           |           |       └── typeArguments
+    |           |           |           ├── block'<'
+    |           |           |           ├── typeArgument
+    |           |           |           |   └── typeSpec
+    |           |           |           |       └── classOrInterfaceType
+    |           |           |           |           └── superSuffix'String'
+    |           |           |           └── defaultValue'>'
+    |           |           ├── superSuffix'getNames'
+    |           |           ├── formalParameters
+    |           |           |   ├── elementValuePair'('
+    |           |           |   └── elementValue')'
+    |           |           └── methodBody
+    |           |               └── block
+    |           |                   ├── elementValueArrayInitializer'{'
+    |           |                   ├── blockStatement
+    |           |                   |   └── statement
+    |           |                   |       ├── variableDeclaratorId'return'
+    |           |                   |       ├── expression
+    |           |                   |       |   ├── constantDeclarator'new'
+    |           |                   |       |   └── creator
+    |           |                   |       |       ├── createdName
+    |           |                   |       |       |   ├── superSuffix'ArrayList'
+    |           |                   |       |       |   └── typeArgumentsOrDiamond
+    |           |                   |       |       |       ├── block'<'
+    |           |                   |       |       |       └── defaultValue'>'
+    |           |                   |       |       └── classCreatorRest
+    |           |                   |       |           └── arguments
+    |           |                   |       |               ├── elementValuePair'('
+    |           |                   |       |               ├── expressionList
+    |           |                   |       |               |   └── expression
+    |           |                   |       |               |       └── primary
+    |           |                   |       |               |           └── superSuffix'names'
+    |           |                   |       |               └── elementValue')'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   └── annotationTypeDeclaration'}'
+    |           ├── classBodyDeclaration
+    |           |   ├── modifier
+    |           |   |   └── classOrInterfaceModifier
+    |           |   |       └── variableDeclarator'public'
+    |           |   ├── modifier
+    |           |   |   └── classOrInterfaceModifier
+    |           |   |       └── arrayInitializer'static'
+    |           |   └── memberDeclaration
+    |           |       └── methodDeclaration
+    |           |           ├── formalParameter'void'
+    |           |           ├── superSuffix'main'
+    |           |           ├── formalParameters
+    |           |           |   ├── elementValuePair'('
+    |           |           |   ├── formalParameterList
+    |           |           |   |   └── formalParameter
+    |           |           |   |       ├── typeSpec
+    |           |           |   |       |   └── classOrInterfaceType
+    |           |           |   |       |       └── superSuffix'String'
+    |           |           |   |       └── variableDeclaratorId
+    |           |           |   |           ├── superSuffix'args'
+    |           |           |   |           ├── annotationTypeBody'['
+    |           |           |   |           └── annotationTypeElementDeclaration']'
+    |           |           |   └── elementValue')'
+    |           |           └── methodBody
+    |           |               └── block
+    |           |                   ├── elementValueArrayInitializer'{'
+    |           |                   ├── blockStatement
+    |           |                   |   └── localVariableDeclarationStatement
+    |           |                   |       ├── localVariableDeclaration
+    |           |                   |       |   ├── typeSpec
+    |           |                   |       |   |   └── classOrInterfaceType
+    |           |                   |       |   |       └── superSuffix'Boolean'
+    |           |                   |       |   └── variableDeclarators
+    |           |                   |       |       └── variableDeclarator
+    |           |                   |       |           ├── variableDeclaratorId
+    |           |                   |       |           |   └── superSuffix'testBool'
+    |           |                   |       |           ├── annotationConstantRest'='
+    |           |                   |       |           └── variableInitializer
+    |           |                   |       |               └── expression
+    |           |                   |       |                   └── primary
+    |           |                   |       |                       └── literal
+    |           |                   |       |                           └── literal'true'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   ├── blockStatement
+    |           |                   |   └── localVariableDeclarationStatement
+    |           |                   |       ├── localVariableDeclaration
+    |           |                   |       |   ├── typeSpec
+    |           |                   |       |   |   └── classOrInterfaceType
+    |           |                   |       |   |       └── superSuffix'String'
+    |           |                   |       |   └── variableDeclarators
+    |           |                   |       |       └── variableDeclarator
+    |           |                   |       |           ├── variableDeclaratorId
+    |           |                   |       |           |   └── superSuffix'testString'
+    |           |                   |       |           ├── annotationConstantRest'='
+    |           |                   |       |           └── variableInitializer
+    |           |                   |       |               └── expression
+    |           |                   |       |                   └── primary
+    |           |                   |       |                       └── literal
+    |           |                   |       |                           └── annotationName'"This is a string!"'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   ├── blockStatement
+    |           |                   |   └── localVariableDeclarationStatement
+    |           |                   |       ├── localVariableDeclaration
+    |           |                   |       |   ├── typeSpec
+    |           |                   |       |   |   └── classOrInterfaceType
+    |           |                   |       |   |       └── superSuffix'Integer'
+    |           |                   |       |   └── variableDeclarators
+    |           |                   |       |       └── variableDeclarator
+    |           |                   |       |           ├── variableDeclaratorId
+    |           |                   |       |           |   └── superSuffix'testInt'
+    |           |                   |       |           ├── annotationConstantRest'='
+    |           |                   |       |           └── variableInitializer
+    |           |                   |       |               └── expression
+    |           |                   |       |                   └── primary
+    |           |                   |       |                       └── literal
+    |           |                   |       |                           └── constructorBody'137'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   ├── blockStatement
+    |           |                   |   └── localVariableDeclarationStatement
+    |           |                   |       ├── localVariableDeclaration
+    |           |                   |       |   ├── typeSpec
+    |           |                   |       |   |   └── classOrInterfaceType
+    |           |                   |       |   |       ├── superSuffix'ArrayList'
+    |           |                   |       |   |       └── typeArguments
+    |           |                   |       |   |           ├── block'<'
+    |           |                   |       |   |           ├── typeArgument
+    |           |                   |       |   |           |   └── typeSpec
+    |           |                   |       |   |           |       └── classOrInterfaceType
+    |           |                   |       |   |           |           └── superSuffix'String'
+    |           |                   |       |   |           └── defaultValue'>'
+    |           |                   |       |   └── variableDeclarators
+    |           |                   |       |       └── variableDeclarator
+    |           |                   |       |           ├── variableDeclaratorId
+    |           |                   |       |           |   └── superSuffix'mainList'
+    |           |                   |       |           ├── annotationConstantRest'='
+    |           |                   |       |           └── variableInitializer
+    |           |                   |       |               └── expression
+    |           |                   |       |                   ├── constantDeclarator'new'
+    |           |                   |       |                   └── creator
+    |           |                   |       |                       ├── createdName
+    |           |                   |       |                       |   ├── superSuffix'ArrayList'
+    |           |                   |       |                       |   └── typeArgumentsOrDiamond
+    |           |                   |       |                       |       └── typeArguments
+    |           |                   |       |                       |           ├── block'<'
+    |           |                   |       |                       |           ├── typeArgument
+    |           |                   |       |                       |           |   └── typeSpec
+    |           |                   |       |                       |           |       └── classOrInterfaceType
+    |           |                   |       |                       |           |           └── superSuffix'String'
+    |           |                   |       |                       |           └── defaultValue'>'
+    |           |                   |       |                       └── classCreatorRest
+    |           |                   |       |                           └── arguments
+    |           |                   |       |                               ├── elementValuePair'('
+    |           |                   |       |                               └── elementValue')'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   ├── blockStatement
+    |           |                   |   └── localVariableDeclarationStatement
+    |           |                   |       ├── localVariableDeclaration
+    |           |                   |       |   ├── typeSpec
+    |           |                   |       |   |   └── classOrInterfaceType
+    |           |                   |       |   |       ├── superSuffix'ArrayList'
+    |           |                   |       |   |       └── typeArguments
+    |           |                   |       |   |           ├── block'<'
+    |           |                   |       |   |           ├── typeArgument
+    |           |                   |       |   |           |   └── typeSpec
+    |           |                   |       |   |           |       └── classOrInterfaceType
+    |           |                   |       |   |           |           ├── superSuffix'ArrayList'
+    |           |                   |       |   |           |           └── typeArguments
+    |           |                   |       |   |           |               ├── block'<'
+    |           |                   |       |   |           |               ├── typeArgument
+    |           |                   |       |   |           |               |   └── typeSpec
+    |           |                   |       |   |           |               |       └── classOrInterfaceType
+    |           |                   |       |   |           |               |           └── superSuffix'Int'
+    |           |                   |       |   |           |               └── defaultValue'>'
+    |           |                   |       |   |           └── defaultValue'>'
+    |           |                   |       |   └── variableDeclarators
+    |           |                   |       |       └── variableDeclarator
+    |           |                   |       |           ├── variableDeclaratorId
+    |           |                   |       |           |   └── superSuffix'mainGrid'
+    |           |                   |       |           ├── annotationConstantRest'='
+    |           |                   |       |           └── variableInitializer
+    |           |                   |       |               └── expression
+    |           |                   |       |                   ├── constantDeclarator'new'
+    |           |                   |       |                   └── creator
+    |           |                   |       |                       ├── createdName
+    |           |                   |       |                       |   ├── superSuffix'ArrayList'
+    |           |                   |       |                       |   └── typeArgumentsOrDiamond
+    |           |                   |       |                       |       └── typeArguments
+    |           |                   |       |                       |           ├── block'<'
+    |           |                   |       |                       |           ├── typeArgument
+    |           |                   |       |                       |           |   └── typeSpec
+    |           |                   |       |                       |           |       └── classOrInterfaceType
+    |           |                   |       |                       |           |           ├── superSuffix'ArrayList'
+    |           |                   |       |                       |           |           └── typeArguments
+    |           |                   |       |                       |           |               ├── block'<'
+    |           |                   |       |                       |           |               ├── typeArgument
+    |           |                   |       |                       |           |               |   └── typeSpec
+    |           |                   |       |                       |           |               |       └── classOrInterfaceType
+    |           |                   |       |                       |           |               |           └── superSuffix'Int'
+    |           |                   |       |                       |           |               └── defaultValue'>'
+    |           |                   |       |                       |           └── defaultValue'>'
+    |           |                   |       |                       └── classCreatorRest
+    |           |                   |       |                           └── arguments
+    |           |                   |       |                               ├── elementValuePair'('
+    |           |                   |       |                               └── elementValue')'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   ├── blockStatement
+    |           |                   |   └── localVariableDeclarationStatement
+    |           |                   |       ├── localVariableDeclaration
+    |           |                   |       |   ├── typeSpec
+    |           |                   |       |   |   └── classOrInterfaceType
+    |           |                   |       |   |       └── superSuffix'TestClass'
+    |           |                   |       |   └── variableDeclarators
+    |           |                   |       |       └── variableDeclarator
+    |           |                   |       |           ├── variableDeclaratorId
+    |           |                   |       |           |   └── superSuffix'class1'
+    |           |                   |       |           ├── annotationConstantRest'='
+    |           |                   |       |           └── variableInitializer
+    |           |                   |       |               └── expression
+    |           |                   |       |                   ├── constantDeclarator'new'
+    |           |                   |       |                   └── creator
+    |           |                   |       |                       ├── createdName
+    |           |                   |       |                       |   └── superSuffix'TestClass'
+    |           |                   |       |                       └── classCreatorRest
+    |           |                   |       |                           └── arguments
+    |           |                   |       |                               ├── elementValuePair'('
+    |           |                   |       |                               └── elementValue')'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   ├── blockStatement
+    |           |                   |   └── statement
+    |           |                   |       ├── statementExpression
+    |           |                   |       |   └── expression
+    |           |                   |       |       ├── expression
+    |           |                   |       |       |   ├── expression
+    |           |                   |       |       |   |   └── primary
+    |           |                   |       |       |   |       └── superSuffix'mainList'
+    |           |                   |       |       |   ├── annotationMethodRest'.'
+    |           |                   |       |       |   └── superSuffix'add'
+    |           |                   |       |       ├── elementValuePair'('
+    |           |                   |       |       ├── expressionList
+    |           |                   |       |       |   └── expression
+    |           |                   |       |       |       └── primary
+    |           |                   |       |       |           └── literal
+    |           |                   |       |       |               └── annotationName'"This is a string!"'
+    |           |                   |       |       └── elementValue')'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   ├── blockStatement
+    |           |                   |   └── statement
+    |           |                   |       ├── statementExpression
+    |           |                   |       |   └── expression
+    |           |                   |       |       ├── expression
+    |           |                   |       |       |   └── primary
+    |           |                   |       |       |       └── superSuffix'println'
+    |           |                   |       |       ├── elementValuePair'('
+    |           |                   |       |       ├── expressionList
+    |           |                   |       |       |   └── expression
+    |           |                   |       |       |       └── primary
+    |           |                   |       |       |           └── superSuffix'testInt'
+    |           |                   |       |       └── elementValue')'
+    |           |                   |       └── annotationTypeElementRest';'
+    |           |                   └── annotationTypeDeclaration'}'
+    |           └── annotationTypeDeclaration'}'
+    └── P'<EOF>'
+
